@@ -2,6 +2,7 @@ import EducationInIslam from "./Components/EducationInIslam";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
+import Opportunities from './Components/Opportunities';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/opportunities" element={<Opportunities />} />
         {/* <Route path="/scholarships" element={<Scholarships />} /> */}
         <Route path="/education-in-islam" element={<EducationInIslam />} />
         {/* <Route path="/institutes" element={<Institutes />} />
