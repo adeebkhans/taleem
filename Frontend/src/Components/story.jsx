@@ -36,7 +36,7 @@ const Story = () => {
       type: "title",
       background: "bg-[url('/images/islamic-pattern1.jpg')]",
       content: (
-        <div className="text-center space-y-6 bg-white/90 p-8 rounded-xl backdrop-blur-sm">
+        <div className="text-center space-y-6 bg-white/90 p-8 rounded-xl backdrop-blur-sm ">
           <h2 className="text-5xl font-bold text-blue-900">{lesson?.title}</h2>
           <div className="w-32 h-32 mx-auto bg-blue-100 rounded-full flex items-center justify-center">
             <FaBook className="text-5xl text-blue-600" />
@@ -49,7 +49,7 @@ const Story = () => {
       type: "introduction",
       background: "bg-[url('/images/islamic-pattern2.jpg')]",
       content: (
-        <div className="space-y-6 bg-white/90 p-8 rounded-xl backdrop-blur-sm">
+        <div className="space-y-6 mb-9 bg-white/90 p-8 rounded-xl backdrop-blur-sm">
           <h3 className="text-4xl font-bold text-blue-800">Introduction</h3>
           <div className="bg-white/80 p-8 rounded-lg shadow-xl">
             <p className="text-xl text-gray-700 leading-relaxed">{lesson?.content}</p>
@@ -169,7 +169,7 @@ const Story = () => {
         </div>
 
         {/* Presentation Card */}
-        <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-2xl mb-16">
+        <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-2xl mb-28">
           <AnimatePresence initial={false} mode="wait" custom={direction}>
             <motion.div
               key={currentSlide}
