@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Opportunities from './Components/Opportunities';
 import Story from './Components/story';
 import AIChatbot from './Components/AIChatbot';
+import Institutes from "./Components/Institutes";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         <Route path="/education-in-islam" element={<EducationInIslam />} />
         <Route path="/lesson/:id" element={<Story />} />
         <Route path="/ai-chatbot" element={<AIChatbot />} />
-        {/* <Route path="/institutes" element={<Institutes />} />
-        <Route path="/learning" element={<LearningHub />} />
+        <Route path="/institutes" element={<Institutes />} />
+        {/* <Route path="/learning" element={<LearningHub />} />
         <Route path="/community" element={<Community />} />
         <Route path="/profile" element={<Profile />} /> */}
       </Routes>
