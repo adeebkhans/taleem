@@ -43,7 +43,7 @@ const Institutes = () => {
       setTotalPages(Math.ceil(response.data.total / response.data.limit));
       setError(null);
     } catch (err) {
-      setError('Failed to fetch institutes');
+      setError('Failed to fetch institutes', err);
       setInstitutes([]);
     } finally {
       setLoading(false);
@@ -92,14 +92,14 @@ const Institutes = () => {
           <select 
             value={selectedCommunity} 
             onChange={(e) => { setSelectedCommunity(e.target.value); setPage(1); }} 
-            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white">
+            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white [&>option]:text-gray-900">
             {communities.map(community => <option key={community} value={community}>{community}</option>)}
           </select>
 
           <select 
             value={selectedState} 
             onChange={(e) => { setSelectedState(e.target.value); setPage(1); }} 
-            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white">
+            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white [&>option]:text-gray-900">
             <option value="">All States</option>
             {states.map(state => <option key={state} value={state}>{state}</option>)}
           </select>
@@ -107,7 +107,7 @@ const Institutes = () => {
           <select 
             value={selectedCourse} 
             onChange={(e) => { setSelectedCourse(e.target.value); setPage(1); }} 
-            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white">
+            className="p-2 rounded-xl bg-white/5 border border-white/10 text-white [&>option]:text-gray-900">
             <option value="">All Courses</option>
             {courses.map(course => <option key={course} value={course}>{course}</option>)}
           </select>
