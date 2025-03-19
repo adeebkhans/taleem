@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaArrowLeft, FaArrowRight, FaBook, FaLightbulb, FaGraduationCap } from "react-icons/fa";
+import {  FaGraduationCap } from "react-icons/fa";
 import { lessons } from '../data/lessons';
 
 const quizQuestions = [

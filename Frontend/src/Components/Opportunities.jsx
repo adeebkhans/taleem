@@ -13,6 +13,7 @@ const Opportunities = () => {
     link: '',
     hasReferral: false,
     referralEmail: '',
+    referralFormLink: '',
     postedAt: new Date().toISOString()
   });
   const [loading, setLoading] = useState(true);
@@ -49,6 +50,7 @@ const Opportunities = () => {
         link: '',
         hasReferral: false,
         referralEmail: '',
+        referralFormLink: '',
         postedAt: new Date().toISOString()
       });
       fetchOpportunities();
@@ -131,21 +133,38 @@ const Opportunities = () => {
                   </label>
                 </div>
                 {newOpportunity.hasReferral && (
-                  <div className="col-span-2">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                      Referral Contact Email
-                      <span className="text-xs text-gray-500 ml-2">
-                        (Direct messaging feature coming soon!)
-                      </span>
-                    </label>
-                    <input
-                      type="email"
-                      placeholder="Enter your email for referral requests"
-                      value={newOpportunity.referralEmail}
-                      onChange={(e) => setNewOpportunity({...newOpportunity, referralEmail: e.target.value})}
-                      className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                      required={newOpportunity.hasReferral}
-                    />
+                  <div className="col-span-2 space-y-4">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                        Referral Contact Email
+                        <span className="text-xs text-gray-500 ml-2">
+                          (Direct messaging feature coming soon!)
+                        </span>
+                      </label>
+                      <input
+                        type="email"
+                        placeholder="Enter your email for referral requests"
+                        value={newOpportunity.referralEmail}
+                        onChange={(e) => setNewOpportunity({...newOpportunity, referralEmail: e.target.value})}
+                        className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                        required={newOpportunity.hasReferral}
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                        Referral Form Link (Optional)
+                        <span className="text-xs text-gray-500 ml-2">
+                          (Google Form or similar)
+                        </span>
+                      </label>
+                      <input
+                        type="url"
+                        placeholder="Enter Google Form link for referral requests"
+                        value={newOpportunity.referralFormLink}
+                        onChange={(e) => setNewOpportunity({...newOpportunity, referralFormLink: e.target.value})}
+                        className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                      />
+                    </div>
                   </div>
                 )}
                 <input
@@ -215,12 +234,23 @@ const Opportunities = () => {
                       <div className="mt-2 p-2 bg-green-50 dark:bg-green-900/30 rounded-lg">
                         <p className="text-green-700 dark:text-green-400 text-sm">
                           ✨ Referral Available
-                          <a 
-                            href={`mailto:${opportunity.referralEmail}?subject=Referral Request: ${opportunity.title}`}
-                            className="ml-2 text-blue-600 dark:text-blue-400 hover:underline"
-                          >
-                            Request Referral
-                          </a>
+                          {opportunity.referralFormLink ? (
+                            <a 
+                              href={opportunity.referralFormLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="ml-2 text-blue-600 dark:text-blue-400 hover:underline"
+                            >
+                              Fill Referral Form
+                            </a>
+                          ) : (
+                            <a 
+                              href={`mailto:${opportunity.referralEmail}?subject=Referral Request: ${opportunity.title}`}
+                              className="ml-2 text-blue-600 dark:text-blue-400 hover:underline"
+                            >
+                              Request Referral
+                            </a>
+                          )}
                         </p>
                       </div>
                     )}
