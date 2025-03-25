@@ -1,0 +1,1686 @@
+[
+    {
+      "OrganizationType": "Government",
+      "Organization": "Government of India",
+      "Website": "http://minorityaffairs.gov.in/newsite/schemes/schemes.asp",
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Andhra Pradesh",
+      "Website": "http://apsmfc.com/",
+      "State": "Andhra Pradesh",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Bihar",
+      "Website": "http://minoritywelfare.bih.nic.in/Scholarships.htm",
+      "State": "Bihar",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Chandigarh",
+      "Website": "http://www.chdeducation.gov.in/Scholarship%20Schemes.pdf",
+      "State": "Chandigarh",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Delhi",
+      "Website": "http://www.scstwelfare.delhigovt.nic.in/",
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Goa",
+      "Website": "http://www.goasocialwelfare.com/postmatrix.htm",
+      "State": "Goa",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Gujarat",
+      "Website": "http://sje.gujarat.gov.in/english/content.asp?cid=133 http://sje.gujarat.gov.in/english/dc/centrally_sponsored_schemes_eng.htm",
+      "State": "Gujarat",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Himachal Pradesh",
+      "Website": "http://www.himachal.nic.in/welfare/",
+      "State": "Himachal Pradesh",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Kerala",
+      "Website": "http://www.collegiateedu.kerala.gov.in/",
+      "State": "Kerala",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Madhya Pradesh",
+      "Website": "http://www.mp.gov.in/bcwelfare/",
+      "State": "Madhya Pradesh",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Orissa",
+      "Website": "http://www.orissa.gov.in/stsc/Minority_scholarship/postmatric_scholarshi…",
+      "State": "Orissa",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Pondicherry",
+      "Website": "http://socwelfare.pondicherry.gov.in/postmatricscholarships.htm",
+      "State": "Pondicherry",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Rajasthan",
+      "Website": "http://sje.rajasthan.gov.in/MinoScho/MinoScho.htm",
+      "State": "Rajasthan",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Uttar Pradesh",
+      "Website": "http://minoritywelfare.up.nic.in/",
+      "State": "Uttar Pradesh",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "West Bengal",
+      "Website": "http://www.wbmdfc.org/",
+      "State": "West Bengal",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Aamir Mustafa Kidwai Trust",
+      "ContactPerson": "Mrs Aziza Kidwai",
+      "Address": "B-28, West End Colony, New Delhi – 110021",
+      "Tel": "011-24670009",
+      "Mob": "09868679107",
+      "Scheme": "Financial assistance for pursuing higher studies to needy and meritorious persons belonging to educationally backward minorities.",
+      "Website": null,
+      "State": "Delhi",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Abdul Qayum Fellowship at Portland State University, USA",
+      "Website": "http://www.gsr.pdx.edu/ogs_funding_scholarships.html",
+      "Scheme": "Provides for a student from Aligarh Muslim University or Shibli National College in India to apply for support to pursue any graduate degree offered with the College of Liberal Arts and Sciences, with preference to be given to students seeking a degree in Economics and with demonstrated financial need. The College is providing a matching tuition waiver.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "USA",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Aga Khan Foundation (UK)",
+      "Address": "Aga Khan Foundation, Sarojini House, 6 Bhagwan Das Road, New Delhi 110001",
+      "Scheme": "University study in the UK for grad and post grad programmes",
+      "Website": "http://www.akdn.org/akfisp/HTML/index.html",
+      "ContactPerson": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Agha Khan Program for Islamic Architecture for study of architecture at MIT and Harvard",
+      "Scheme": "Three scholarships awarded every year for research & investigation in Architecture of the Muslim world.",
+      "Website": "http://web.mit.edu/akpia/www/",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "USA",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Al-Ameen Charitable fund Trust",
+      "Address": "Super tannery (I) Ltd. Jajmau Road, Jajmau, Kanpur – 208 010 (U.P.)",
+      "Scheme": "Post Metric Scholarship for higher education",
+      "Website": null,
+      "ContactPerson": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Uttar Pradesh",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Al-Ameen Scholarships",
+      "Address": "UG-12, Essel House, 10-Asaf Ali road, New Delhi 110002 OR 76A/1; Okhla Main Bazar, Jamia Nagar, New Delhi – 110025",
+      "Tel": "26845691",
+      "Fax": "26839968",
+      "Scheme": "Scholarship for students securing more than 50% marks in IXth and Xth standard. Girls studying from Vth standard may also be considered.",
+      "Website": null,
+      "ContactPerson": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Aligarh Alumnis Scholarships",
+      "Website": "http://www.aligs.org",
+      "Scheme": "1.  AMU Alumni Association, Australia (open to all, about 30 Scholarships) 2.  AMU Alumni Association, California (open to all, about 150 Scholarships) 3.  The Aligarh Alumni Association Washington DC i)      14 Scholarships specific for students from ASSAM (Endowed by Mr. Zouqul Choudhary) ii)     07 Sabah Memorial Scholarships (Specific for Law Students. Endowed by Mrs. Akhtar Quraishi & Dr. Sayeed Quraishi) iii)    86 Scholarships (open to all) Endowed by different individuals. iv)    03 Scholarships (open to all) Endowed by Mr. S. A. Raza. 4.      Sultan Jahan Begum Scholarship (Oman, open to all, about 60 Scholarships) 5.      Dr. S. M. Raza & Others Scholarships (Muscat, open to all) 6.      Aligarh Alumni Association of United Kingdom (open to all, about 30 Scholarships)",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Australia",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "All India Council for Technical Education (AICTE)",
+      "Website": "http://www.aicte-india.org/pragatisaksham.php",
+      "Scheme": "1. Pragati Scholarship Scheme for Girl Students (Rs. 30,000/- per annum) 2. Saksham Scholarship Scheme for Specially Abled Student (Rs. 30,000/- per annum)",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Anwar Jamal Kidwai (AJK) Mass Communication Research Centre, Jamia Millia Islamia",
+      "Website": "http://jmi.ac.in/ajkmcrc",
+      "Scheme": "Offers scholarships to meritorious and needy students in various courses.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Anjuman-I-Islam",
+      "Address": "92, Dr. D.N. Road, Mumbai – 400 001",
+      "Tel": "022-22073517 / 22076781",
+      "Scheme": "Offers scholarships and financial aid to deserving students (primarily Muslim) for pursuing education from primary to professional levels.",
+      "Website": "http://www.anjumanislam.in/",
+      "ContactPerson": null,
+      "Mob": null,
+      "State": "Maharashtra",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Central Wakf Council",
+      "Website": "http://centralwakfcouncil.nic.in/",
+      "Scheme": "Provides scholarships to meritorious Muslim students for pursuing professional and technical courses.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Delhi Minorities Commission",
+      "Website": "http://delhiminorities.nic.in/htmldocs/scholarship.htm",
+      "Scheme": "Offers merit-cum-means scholarship to students belonging to minority communities (including Muslims) in Delhi.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Directorate of Minorities Welfare, Government of Karnataka",
+      "Website": "http://gokdom.kar.nic.in/",
+      "Scheme": "Offers various scholarships for minority students (including Muslims) in Karnataka.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Karnataka",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Ezra Charitable Trust",
+      "Address": "90A, Sunder Nagar, New Delhi – 110003",
+      "Tel": "011-24356508",
+      "Scheme": "Provides financial assistance to needy and deserving students (including Muslims) for higher education.",
+      "Website": null,
+      "ContactPerson": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Foundation for Academic Excellence and Access (FAEA)",
+      "Website": "http://faeaindia.org/",
+      "Scheme": "Provides scholarships to meritorious students from socially and economically disadvantaged backgrounds (including Muslims) for undergraduate and postgraduate studies.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Hamdard Education Society",
+      "Website": "http://www.hamdardeducation.org/",
+      "Scheme": "Offers scholarships and financial assistance to deserving students (including Muslims) for various courses.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "HBL Global Education Foundation",
+      "Website": "http://hblgef.org/",
+      "Scheme": "Provides scholarships to meritorious and needy students (including Muslims) for pursuing higher education in India.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Indian Council for Cultural Relations (ICCR)",
+      "Website": "http://www.iccr.gov.in/",
+      "Scheme": "Offers scholarships to international students (including those from Muslim countries) to study in India.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Indo-US Fellowship for Muslim Women in Science and Technology",
+      "Website": "http://www.iwsa.org/indousfellowship.html",
+      "Scheme": "Provides opportunities for Muslim women scientists and technologists from India to pursue research in the United States.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Jamia Millia Islamia",
+      "Website": "http://jmi.ac.in/studyatjamia/17",
+      "Scheme": "Offers various scholarships and financial aid to its students (including Muslims).",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Maulana Azad Education Foundation (MAEF)",
+      "Website": "http://maef.nic.in/",
+      "Scheme": "Provides scholarships to meritorious students from minority communities (including Muslims) for pursuing higher professional and technical courses.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Ministry of Minority Affairs",
+      "Website": "http://minorityaffairs.gov.in/newsite/schemes/schemes.asp",
+      "Scheme": "Offers various scholarship schemes for students belonging to minority communities (including Muslims) at pre-matric, post-matric, and merit-cum-means levels.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "National Commission for Minorities (NCM)",
+      "Website": "http://ncm.nic.in/",
+      "Scheme": "While NCM doesn't directly provide scholarships, it monitors the implementation of various scholarship schemes for minorities (including Muslims).",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "National Minorities Development and Finance Corporation (NMDFC)",
+      "Website": "http://nmdc.nic.in/",
+      "Scheme": "Provides educational loans at concessional rates to eligible students from minority communities (including Muslims).",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Rahmani 30",
+      "Website": "http://www.rahmani30.org/",
+      "Scheme": "Provides free coaching and guidance to talented Muslim students for admission to top engineering and medical colleges in India.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Bihar",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Salar Jung Museum",
+      "Website": "http://salarmuseum.in/?page_id=45",
+      "Scheme": "Offers scholarships to students pursuing courses related to museum studies, history, and archaeology.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Telangana",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Sayed Hashim Memorial Trust",
+      "Address": "10, UGF, Huda City Centre Metro Station, Sector-29, Gurgaon – 122001",
+      "Tel": "0124-4268091",
+      "Mob": "09811354454",
+      "Scheme": "Provides financial assistance to needy and meritorious Muslim students for higher education.",
+      "Website": null,
+      "ContactPerson": null,
+      "State": "Haryana",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Sir Syed Education Foundation of North America",
+      "Website": "http://www.ssefna.org/",
+      "Scheme": "Provides scholarships to meritorious students (including Muslims) from India to pursue higher education in the United States and Canada.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "USA",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Sir Syed Minority Foundation",
+      "Address": "A-1, Nishat Apartments, Near Moolchand Metro Station, Defence Colony, New Delhi – 110024",
+      "Tel": "011-24648927 / 24626584",
+      "Scheme": "Provides scholarships to needy and meritorious Muslim students for technical and professional education.",
+      "Website": null,
+      "ContactPerson": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "State Minorities Commissions",
+      "Website": null,
+      "Scheme": "Various state governments in India have their own minorities commissions that may offer scholarships or information about available scholarships for minority students (including Muslims).",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Tata Education and Development Trust",
+      "Website": "http://www.tata.com/aboutus/sub_index/Tata-Education-and-Development-Trust",
+      "Scheme": "Offers scholarships to Indian students (including Muslims) for pursuing PhD or postdoctoral studies abroad.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "India",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Organization",
+      "Organization": "Zakat Foundation of India",
+      "Website": "http://www.zakatindia.org/",
+      "Scheme": "Provides educational scholarships and financial assistance to needy Muslim students in India.",
+      "ContactPerson": null,
+      "Address": null,
+      "Tel": null,
+      "Mob": null,
+      "State": "Delhi",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Jammu & Kashmir",
+      "Website": "http://jksocialwelfare.nic.in/",
+      "State": "Jammu & Kashmir",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Jharkhand",
+      "Website": "http://minoritywelfare.jharkhand.gov.in/",
+      "State": "Jharkhand",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Maharashtra",
+      "Website": "http://www.minorityaffairs.maharashtra.gov.in/",
+      "State": "Maharashtra",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Manipur",
+      "Website": "http://www.manipurtribalaffairs.gov.in/",
+      "State": "Manipur",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Meghalaya",
+      "Website": "http://megsocialwelfare.gov.in/",
+      "State": "Meghalaya",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Mizoram",
+      "Website": "http://socialwelfare.mizoram.gov.in/",
+      "State": "Mizoram",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Nagaland",
+      "Website": "http://socialwelfare.nagaland.gov.in/",
+      "State": "Nagaland",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Sikkim",
+      "Website": "http://sikkimsocialwelfare.gov.in/",
+      "State": "Sikkim",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Tamil Nadu",
+      "Website": "http://www.bcmbcmw.tn.gov.in/",
+      "State": "Tamil Nadu",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Tripura",
+      "Website": "http://socialwelfare.tripura.gov.in/",
+      "State": "Tripura",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Uttarakhand",
+      "Website": "http://minoritywelfare.uk.gov.in/",
+      "State": "Uttarakhand",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Andaman & Nicobar Islands",
+      "Website": "http://socialwelfare.andaman.gov.in/",
+      "State": "Andaman & Nicobar Islands",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Dadra & Nagar Haveli",
+      "Website": "http://dnh.nic.in/department/social_welfare.aspx",
+      "State": "Dadra & Nagar Haveli",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Daman & Diu",
+      "Website": "http://daman.nic.in/sw.htm",
+      "State": "Daman & Diu",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Lakshadweep",
+      "Website": "http://lakshadweep.nic.in/departments/social-welfare/",
+      "State": "Lakshadweep",
+      "MuslimSpecific": "Yes"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Madhya Pradesh",
+      "Website": "http://tribal.nic.in/Divisions/EducationalSchemes/Scholarships/NationalFellowshipScholarshipforHigherEducationofSTStudents.aspx",
+      "State": "Madhya Pradesh",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Punjab",
+      "Website": "http://www.punjabscholarships.gov.in/",
+      "State": "Punjab",
+      "MuslimSpecific": "No"
+    },
+    {
+      "OrganizationType": "Government",
+      "Organization": "Telangana",
+      "Website": "http://www.mwd.telangana.gov.in/",
+      "State": "Telangana",
+      "MuslimSpecific": "Yes"
+    },
+    {
+        "OrganizationType": "Organization",
+        "Organization": "All India Talent Identification And Promotion Trust",
+        "Address": "#7, SRK Garden, Jayanagar (E), Bangalore-41",
+        "Tel": "080-56969672, 6646861",
+        "Email": "admin@aitipt.org; aitipt@yahoo.co.in",
+        "Scheme": null,
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "AMM Arunachalam-Lakshmi Achi Scholarship",
+        "Address": "AMM Foundation, Parry House, Third Floor, 43 Moore Street, Chennai 600001.",
+        "Scheme": null,
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Asma Foundation (Regd)",
+        "Address": "Hospital Road Distt. Madhubani, Bihar 847211",
+        "Scheme": "Invites applications for financial aid from the students who had excelled in public exams, but could not afford to study further. During the year 2004-05, BREAD will offer scholarships in science and technology : Engineering, Computer Science, Medicine, Veterinary Science, Agriculture, Pharmacy, Polytechnics, Mathematics and Sciences.",
+        "Website": null,
+        "State": "Bihar",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "BREAD and North South Foundation",
+        "Address": "Ch. Hanumantha Rao, 204 Megha Apts, 2-1-253 Nallakunta, Hydreabad – 500 044 (Andhra Pradesh); Sri M. Siva Ram Prasad, BREAD,401, Diamond House Adjacent to Amrutha Hills Punjagutta, Hyderabad-500 082",
+        "Scheme": "Eligibility criteria include : a family income of less than Rs,38,000 (Rs.26,000 in rural areas) ; top five per cent ranks in Common Entrance Tests (CET) of 85 per cent marks in intermediate or equivalent examination with relaxation of five per cent to rural and girl students in ranks/percentages ; rank of first attempt preferred; coming from Government or Government aided schools only; first year students in the course of study chosen; students eligible for other scholarships will not normally be eligible for BREAD scholarships.",
+        "Website": null,
+        "State": "Andhra Pradesh",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "BSA Zakaat Foundation Scholarship in Tamilnadu",
+        "Address": "Buhari Building # 4, Moores Road, Chennai-600 006",
+        "Tel": "+91-44-42261133",
+        "Fax": "+91-44-28231950",
+        "Scheme": null,
+        "Website": "http://www.bsazakaat.org/",
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Bharat Seva Trust",
+        "Address": "12 A, Connaught Place New Delhi-110001",
+        "Tel": "23323917",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "The Children Foundation",
+        "Address": "Post Box No -5007, Chennai – 600090 Tamil Nadu",
+        "Email": "info@childrenfoundation.net",
+        "Scheme": "Provide scholarship for academically excellent student who lack the financial freedom in choosing and building their career",
+        "Website": "http://www.childrenfoundation.net/apply.html",
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Danish Education Trust(R)",
+        "Address": "No. 85, Sheriff House, Richmond Road, Next to Karnataka State Hajj Committee Office, Bangalore – 560025.",
+        "Tel": "080 – 41121281",
+        "Email": "danishtrust@gmail.com; info@danishtrust.co.in",
+        "Scheme": "To Karnataka students studying in the following courses in Karnataka: Law, Journalism, Economics or Students appearing for II year PUC and Karnataka CET 2008, seeking admission to 1st year BE & MBBS courses.",
+        "Website": "www.danishtrust.co.in",
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Dawodbhoy Fazalbhoy Muslim Educational Trust",
+        "Address": "42, Ibrahim Md. Merchant Road, Dhadah Khadak, Mumbai 400 029",
+        "Email": "assurfam@vsnl.com",
+        "Scheme": null,
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Delhi Wakf Board",
+        "Address": "Near Bachchon Ka Ghar, Daryaganj, Delhi 110006",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Dr. Zakir Hussain Memorial Trust",
+        "Address": "4, Gul Mohar Avenue, Jamia Nagar, New Delhi-110025",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Foundation for Social Care",
+        "Address": "Director, Scholarship programme: Ziaur-Rahman Siddiqui 185/A Johari Farm, Jamia Nagar, New Delhi 110 025.",
+        "Tel": "(011) 26317311",
+        "Email": "fsc_admin@rediffmail.com; fscscholarship@yahoo.co.in",
+        "Scheme": null,
+        "Website": "www.fscwecare.org",
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "GBK Charitable Trust",
+        "Address": "Giyasuddin babukhan, Chairman and Managing Trustee, GBK Charitable Trust, Begum pet, Hyderabad.",
+        "Scheme": "Poor students studying MBBS, BDS, Pharmacy, BE, B. Tech, LLB, BCA, MCA, MBA, MA, M. Com, B. Ed, M. Ed, Ph. D (for research material), nursing, polytechnic, graduation, inter, TTC., ITI., Distance education, post graduation. Eligibility: In the previous subjects must have at least 60% marks. One person is eligible from family. However for orphans two members can be apply. The monthly income should not exceed by Rs. 4000.",
+        "Website": null,
+        "State": "Telangana",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Hamdard Educational Society (For Science At Secondary Level)",
+        "Address": "Talimabad, Sangam Vihar New Delhi 110062",
+        "Tel": "(011) 6085063 – 6085064",
+        "Email": "inquiry@jamiahamdard.edu",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Hashmi Human Resources Development Society",
+        "Address": "Qazi Zada, Amroha – 244221 (U.P.)",
+        "Tel": "05922-262417",
+        "Fax": "05922-250207",
+        "Email": "info@hashmi.com; info@hashmitrust.com",
+        "Scheme": "Yearly The award covers: Partial Academic expenses",
+        "Website": "http://www.hashmitrust.com",
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Human Welfare Trust",
+        "Address": "195, A. F. Enclave, Jamia Nagar, Okhla, New Delhi- 110025",
+        "Tel": "6822199",
+        "Email": "sidheeqhassn@gmail.com",
+        "Scheme": "A limited number of loan scholarships are available for various postgraduate and diploma courses.",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Institute of Objective Studies",
+        "Address": "P.O. Box No.9725, 162-Joga Bai Extension, Jamia Nagar, New Delhi-110025",
+        "Tel": "011-26981187, 26987467, 26989253",
+        "Fax": "91-11-26981104",
+        "Email": "manzoor@ndf.vsnl.net.in",
+        "Scheme": "Students of jurisprudence and law Scholarship in Social Sciences and Humanities (SSS) Scholarship for Language Promotion (SLP) Scholarship for Madrasa Students Opting Social Sciences and Humanities (SMS)",
+        "Website": "http://www.iosworld.org/schol.htm",
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Islamic Development Bank",
+        "Address": "Daily Star, 103, St John’s Church Road, Bangalore – 560005 (India); Jeddah, Saudi Arabia",
+        "Scheme": "Islamic Development Bank grants scholarship for poor Muslim students of India seeking admission in degree courses of Medicine, Engineering (all branches), Agriculture, Fisheries, Forestry, food Tech. Business Administration and Accountancy, interest Free Loan Scholarship refundable in easy installments when employment starts. For 3 yeears PhD in Science & Technology in IDB member countries.",
+        "Website": "http://www.isdb.org",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Islamic Research Foundation (IRF)",
+        "Scheme": "Post-Matric scholarship for Muslim students of Maharashtra",
+        "Website": "http://www.irf.net/iis/scholarship.pdf",
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Jamiat-Ulama-e-Hind",
+        "Address": "1, Bahadur Shah Zafar Marg, New Delhi-110002",
+        "Tel": "23311455, 3317729",
+        "Scheme": "Mujahid Millat Educational Scholarship to meritorious students seeking admission to Engineering (civil, Elec., Electronics, Computer), M.C.A, Chartered Accountant.",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Karnataka State Minorities Commission",
+        "Scheme": "Scholarships given to students studying Technical or Professional courses at Undergraduate (BE, B.Tech, B.Arch, BTech (Agri), BSc (Agri), BVSc&AH, MBBS, BDS, BUMS, BAMS, BHMS, BNYS,) / Post graduate (ME, MTech, MD, MS, MDS, MCA, MBA, MSc (Agri), MVSc&AH ) in an recognized institution.",
+        "Website": "http://www.karmin.in/applicationformdownload.html",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Maulana Azad Education Foundation",
+        "Address": "Social Justice Service Centre, Mahila Imdad Committee, Opposite New Delhi Railway Reservation Centre, Chelmsford Road, New Delhi – 110055",
+        "Tel": "011-23583788, 23583789",
+        "Scheme": "Application for Maulana Azad National Scholarship for Girls can be submitted in between 1st July to 30th September every year.",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "MESCO",
+        "Address": "Admn.Office: 4, Sayeed House, 1st floor, 63/65, V. S. Marg, Mahim, Mumbai – 400 016",
+        "Tel": "91 – 22 – 2445 5365 / 2444 4339 / 2444 8637",
+        "Fax": "91 – 22 – 2444 0857",
+        "Email": "mescotrust@mescotrust.org",
+        "Scheme": "Educational Aid for the students above & below S.S.C.: It is a one time aid given to financially backward students based on their need. High Cost Education Loan Scholarship (HCELS): HCELS provides interest free loan scholarships to eligible, financially deserving and meritorious students, who intend to take admission in the first year of the professional full time course or are already pursuing their studies in professional full time course",
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "M.P. Backward and Minorities Welfare Department",
+        "Scheme": null,
+        "Website": "http://www.mp.gov.in/bcwelfare/forms.htm",
+        "State": "Madhya Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Association for the Advancement of Science, The",
+        "Address": "Darul Fikr 44, Ahmad Nagar , Dodhpur Aligharh-202002",
+        "Tel": "0571 2701209",
+        "Scheme": null,
+        "Website": null,
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Educational Trust",
+        "Address": "E-3 Abul Fazl Enclave, Jamia Nagar, Okhla, New Delhi -110025",
+        "Scheme": "Loan Scholarship for the professional courses in Medicine, Engineering, Business, Management, M.C.A., B.C.A. Chartered Accountancy and Cost Accountancy, Repayment of the loan shall be due and will commence after the students has completed his education and settled or after the expire of one year of completion of education/course, whichever is earlier. Scholarship for Medical & Engineering courses, and PhD studies.",
+        "Website": "http://www.metdelhi.org/",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Hands",
+        "Address": "148-164 Gregory Boulevard, Nottingham NG7 5JE, United Kingdom",
+        "Email": "contact@muslimhands.org",
+        "Scheme": "Applications from overseas Muslim students to study in the UK are occasionally considered by the Trust.",
+        "Website": "www.muslimhands.org",
+        "State": "United Kingdom",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim India Education and Cultural Trust",
+        "Address": "The Ehsan House Road 6B, Rajendar Nagar, Patna-800016 OR Mr Syed Shahabuddin, IPS (Retd) Ex MP (Trustee) D-250 Abul Fazl Enclave, Jamia Nagar, New Delhi – 110025",
+        "Tel": "26326780",
+        "Fax": "16327346",
+        "Email": "muslim@del3.vsnl.net.in",
+        "Scheme": "Grant-in-aid for higher and professional courses, coaching for civil Services and admission to Medical/Engineering Colleges.",
+        "Website": null,
+        "State": "Bihar",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim World League Secretariat General Education Affair",
+        "Address": "No. 40, P. O. Box 537, Makkah- Al-Mukarramah, KSA",
+        "Tel": "5422733",
+        "Fax": "5436619/5444787",
+        "Scheme": "Scholarship for B.Sc. Programme in Arabic or Islamic Course holding a general Secondary School Certificate or it’s equivalent",
+        "Website": null,
+        "State": "Saudi Arabia",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "National Minorities Development & Finance Corporation",
+        "Address": "1, Taimoor Nagar, Opp D996, New Friends Colony, New Delhi 110065",
+        "Tel": "011-26326051/57/58/59",
+        "Fax": "011-26325651",
+        "Scheme": null,
+        "Website": "nmdfc.org",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Nakadar Foundation",
+        "Address": "Pir Bordi Chakla KADI 382715 Distt Mehsana, North Gujarat",
+        "Scheme": "Every year Gold Medal is awarded to Muslim students of High School and Intermediate of each state who secure more than 75% marks. (Three top students from each state and the country.)",
+        "Website": null,
+        "State": "Gujarat",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "North South Foundation",
+        "Address": "Mr. S.Ramanathan, #17, North St, Kalai Nagar Madurai – 625014",
+        "Tel": "0452-2640678",
+        "Email": "ramrajam2002@yahoo.com",
+        "Scheme": "Scholarships are given by “NORTH SOUTH FOUNDATION” of USA, based on exam grades and family situation. The annual family income should be less than Rs 38000 in urban areas and Rs 26000 in rural areas. The scholarship amount mostly covers 100% of tuition fees and ranges from Rs 5000 to Rs 10000 per year.",
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "R D Sethna Scholarship Fund",
+        "Address": "29, H Somani Marg, Fort Mumbai – 400001",
+        "Scheme": null,
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Prerana(supported by Infosys foundation)",
+        "Address": "580, shubhakar, 44th cross,1st main Road,Jayanagar 7th block Bangalore",
+        "Mob": "9900906338(saraswat i); 9986630301 (Mr.Shivkumar – Hanumanth Nagar office); 9964534667 (Ms.Bindu -Yeshwantpur office)",
+        "Scheme": "Bright students coming from poor financial background who have finished their 10th standard this year (April 2009) and scored more than 80%. The NGO is conducting a written test and those who clear the test will be eligible for financial help for their further studies.",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Punjab Wakf Board",
+        "Address": "50, Sardar Patel Marg, AMBALA",
+        "Scheme": "(Only For Students Of Punjab, Haryana, Himachal Pradesh, Chandigarh)",
+        "Website": null,
+        "State": "Haryana",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Rabitah Al-Alami Al-Islami",
+        "Address": "P.O. Box No. 537, Mekkah, Saudi Arabia",
+        "Tel": "(966-2) 5422733",
+        "Fax": "(966-2) 5446700",
+        "Scheme": null,
+        "Website": null,
+        "State": "Saudi Arabia",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "S H A Ziauddin Trust",
+        "Address": "P O Box 777 Guildford GU2 7GW, UK",
+        "Scheme": "Applications from anyone studying, or wishing to study, on courses in science, agriculture or environmental protection, and willing to use their skills for the benefit of the peoples of the Indian sub-continent (I.e. India, Pakistan, Bangladesh and Sri Lanka) will be considered at all times of the year.",
+        "Website": null,
+        "State": "United Kingdom",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Mr. M R Sherwani",
+        "Address": "12-A Connaught place New Deihi 110001",
+        "Scheme": "Sherwani Award to outstanding students who have passed out High School/ Intermediate Examination of any board. (Only First Divisioners are expected to get the cash prize/award)",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Students Islamic Trust (SIT)",
+        "Address": "E-3 Abul Fazl Enclave, Jamia Nagar, New Delhi 110 025",
+        "Tel": "2692 7004",
+        "Fax": "2328 2834",
+        "Email": "sitdelhi@rediffmail.com",
+        "Scheme": null,
+        "Website": "http://www.sit-india.org",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Ta’awun Trust",
+        "Address": "162, Jogabai Ext., Jamia Nagar, Okhla, New Delhi – 110025 (Delhi); Talent Promotion Taawun Trust 3, Palmgrove Road, Victoria Layout, Bangalore-56004 (Karnataka)",
+        "Scheme": "(Only For Students Of Karnataka)",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Tamil Nadu Post Matric Scholarship to Minority Students Pursuing XI std. to Ph.D. Level",
+        "Address": "Commissioner of Minorities Welfare and Managing Director, Tamil Nadu Minorities Economic Development Corporation Ltd., Chennai – 600 002",
+        "Scheme": null,
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "U.P. Minorities Financial and Development Corporation Ltd.",
+        "Address": "746, 7th Floor, Jawahar Bhawan, Lucknow 226001 Or District Minorities Welfare Officer of the concerned, District",
+        "Scheme": "Interest Free Loan for talented and needy students of minorities seeking admission to Medical, Technical and Professional courses such as Management, Tourism etc.",
+        "Website": null,
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "UNIFIED COUNCIL",
+        "Address": "# 16-11-17/B/2/2, Saleem Nagar, Malakpet, Hyderabad – 500 036.",
+        "Tel": "040-24545862,24557708,55106095",
+        "Fax": "24542215",
+        "Scheme": "NATIONAL LEVEL SCIENCE TALENT SEARCH EXAMINATION – 2005 (For students of Classes III,IV,V,VI,VII,VIII,IX,X,XI&XII(CBSE / ICSE/ all State Board Syllabi))",
+        "Website": null,
+        "State": "Telangana",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "United Mass Media Association",
+        "Address": "161-F Joga Bai Extn. Jamia Nagar, New Delhi 110025",
+        "Scheme": "Few Scholarships of Rs 1000.00 per month to students of Journalism and Mass Communication",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Waqf Women Foundation",
+        "Address": "No. 530, 5th Floor, M.S. Building, Vidhan Vidhi, Bangalore, Karnataka",
+        "Scheme": "Scholarships for female Muslim students for medical courses (MBBS, BUMS), dental engineering and Ded (TCH).",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "World Assembly Of Muslim Youth (WAMY)",
+        "Address": "P. O. Box No. 10845, Riyadh, Saudi Arabia",
+        "Tel": "(966-1) 4641663/4641669",
+        "Fax": "(966-1) 464171/4641676",
+        "Scheme": null,
+        "Website": null,
+        "State": "Saudi Arabia",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Rameshwardasji Birla Smarak Kosh",
+        "Address": "Medical Research Centre, Hospital Avenue, Mumbai-400020.",
+        "Scheme": "Scholarships for postgraduate studies in medical or related fields",
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "All India Talent Identification And Promotion Trust",
+        "Address": "#7, SRK Garden, Jayanagar (E), Bangalore-41",
+        "Tel": "080-56969672, 6646861",
+        "Email": "admin@aitipt.org; aitipt@yahoo.co.in",
+        "Scheme": null,
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "AMM Arunachalam-Lakshmi Achi Scholarship",
+        "Address": "AMM Foundation, Parry House, Third Floor, 43 Moore Street, Chennai 600001.",
+        "Scheme": null,
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Asma Foundation (Regd)",
+        "Address": "Hospital Road Distt. Madhubani, Bihar 847211",
+        "Scheme": "Invites applications for financial aid from the students who had excelled in public exams, but could not afford to study further. During the year 2004-05, BREAD will offer scholarships in science and technology : Engineering, Computer Science, Medicine, Veterinary Science, Agriculture, Pharmacy, Polytechnics, Mathematics and Sciences.",
+        "Website": null,
+        "State": "Bihar",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "BREAD and North South Foundation",
+        "Address": "Ch. Hanumantha Rao, 204 Megha Apts, 2-1-253 Nallakunta, Hydreabad – 500 044 (Andhra Pradesh); Sri M. Siva Ram Prasad, BREAD,401, Diamond House Adjacent to Amrutha Hills Punjagutta, Hyderabad-500082; NSF India Programs, 312, Pavani Plaza, Road No. 1, Banjara Hills, Hyderabad 500034.",
+        "Tel": "040-27606312, 23350583, 23353759",
+        "Email": null,
+        "Scheme": null,
+        "Website": "www.breadsociety.org, www.northsouth.org",
+        "State": "Andhra Pradesh",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Bright Future",
+        "Address": "A-3, Abul Fazal Enclave-II, Okhla, New Delhi-110025",
+        "Tel": "26948784, 26957940",
+        "Email": "brightfuturetrust@gmail.com",
+        "Scheme": null,
+        "Website": "www.brightfuturetrust.org",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "CBSE Scholarship Scheme for Single Girl Child",
+        "Address": "CBSE, Shiksha Kendra, 2, Community Centre, Preet Vihar, Delhi-110092",
+        "Tel": "22509256, 22509258, 22509259",
+        "Email": "scholarship.cbse@nic.in",
+        "Scheme": "Scholarship for the single girl child who have passed Class X Examination from CBSE and are continuing their further school education of Class XI and XII in CBSE affiliated Schools.",
+        "Website": "http://cbse.nic.in/scholar/single_girl.htm",
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Central Wakf Council",
+        "Address": "Central Waqf Council, Ministry of Minority Affairs, Core-I, Ground Floor, East Court, India Habitat Centre, Lodhi Road, New Delhi - 110 003.",
+        "Tel": "011-24631397, 24631399",
+        "Email": "centralwakfcouncil@nic.in",
+        "Scheme": null,
+        "Website": "http://www.centralwakfcouncil.gov.in",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Danish Education Trust(R)",
+        "Address": "No 4, 5th Cross, 2nd Block, R.M.V Extension, Bangalore - 560080",
+        "Tel": "080-23416405",
+        "Email": "danish_edu@yahoo.com",
+        "Scheme": null,
+        "Website": "http://www.danishinstitutions.org",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Dawodbhoy Fazalbhoy Muslim Educational Trust",
+        "Address": "44, Ibrahim Rahimtulla Road, Mumbai 400003.",
+        "Tel": "23461535 / 2346 3083",
+        "Email": "dfmetrust@gmail.com",
+        "Scheme": null,
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Delhi Wakf Board",
+        "Address": "Delhi Wakf Board, Darya Ganj, Delhi.",
+        "Tel": "23273010, 23273011",
+        "Email": null,
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Dr. Zakir Hussain Memorial Trust",
+        "Address": "18, East Nizamuddin, New Delhi - 110013",
+        "Tel": "24354941, 24354842",
+        "Email": null,
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Foundation for Academic Excellence and Access (FAEA)",
+        "Address": "C-25, Qutab Institutional Area, New Delhi 110016",
+        "Tel": "011-41653901, 41653902",
+        "Email": "info@faeaindia.org",
+        "Scheme": "Offers scholarships to meritorious students from socially and economically disadvantaged sections of the society to pursue under-graduate degree courses in Arts, Commerce, Science, Engineering and other technical and professional disciplines at select institutions across India.",
+        "Website": "www.faeaindia.org",
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Foundation for Social Care",
+        "Address": "11, Lady Curzon Road, Bangalore 560001",
+        "Tel": "080-25576571, 25576572",
+        "Email": "foundationforsocialcare@gmail.com",
+        "Scheme": null,
+        "Website": "www.ffscindia.org",
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "GBK Charitable Trust",
+        "Address": "201, Vikram Tower, 16, Rajendra Place, New Delhi - 110008",
+        "Tel": "25787886, 25787887",
+        "Email": "info@gbkcharitabletrust.org",
+        "Scheme": "Offers scholarships to needy and meritorious students for pursuing higher professional education in the field of Engineering, Medicine, Management, IT and other professional courses.",
+        "Website": "www.gbkcharitabletrust.org",
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "H. E. H. The Nizam Charitable Trust",
+        "Address": "Purani Haveli, Hyderabad - 500002",
+        "Tel": null,
+        "Email": null,
+        "Scheme": null,
+        "Website": null,
+        "State": "Telangana",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Hamdard Educational Society",
+        "Address": "Hamdard Buildings, 2A/3, Asaf Ali Road, New Delhi - 110002",
+        "Tel": "23239801-05",
+        "Email": "hes@jamiahamdard.ac.in",
+        "Scheme": null,
+        "Website": "www.jamiahamdard.ac.in",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Hashmi Human Resources Development Society",
+        "Address": "3/113, Arshi Nagar, Dodhpur, Aligarh-202001",
+        "Tel": "0571-2403145",
+        "Email": "hashmi.aligarh@gmail.com",
+        "Scheme": null,
+        "Website": "www.hashmieducation.com",
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Human Welfare Trust",
+        "Address": "4/3, Jogabai Extension, Jamia Nagar, New Delhi - 110025",
+        "Tel": "011-26982964, 26986769",
+        "Email": "hwt@hwt.org.in",
+        "Scheme": "Offers loan scholarships for various courses including MBBS, BAMS, BHMS, BUMS, BDS, B.Pharma, D.Pharma, Nursing, Physiotherapy, Engineering (B.Tech), MCA, MBA, Agriculture and Veterinary Sciences.",
+        "Website": "www.hwt.org.in",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Institute of Objective Studies",
+        "Address": "162, Jogabai Extension, Jamia Nagar, New Delhi - 110025",
+        "Tel": "011-26981187, 26989253",
+        "Email": "iosindia@vsnl.net; iosdelhi@gmail.com",
+        "Scheme": "Offers various scholarship programmes. Application forms are usually available from August and the last date for submission is generally November 30th.",
+        "Website": "www.iosworld.org",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Islamic Development Bank",
+        "Address": "Muslim Education Trust, # 13 & 14, II Floor, Blue Towers, Narasinga Rao Road, Bangalore - 560001.",
+        "Tel": "080-22219669 / 22247178",
+        "Email": "metblr@bgl.vsnl.net.in",
+        "Scheme": "Offers interest-free loan scholarships to needy and meritorious students for degree courses in Engineering, Medicine, Agriculture and other applied sciences. The applicant must be a Muslim and should have secured at least 75% marks in the qualifying examination. Preference will be given to those pursuing studies in the fields of Engineering, Medicine and Agriculture.",
+        "Website": "www.islamic-development-bank.com",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Islamic Research Foundation (IRF)",
+        "Address": "56/A, Maulana Azad Road, Dongri, Mumbai - 400009",
+        "Tel": "022-23734734, 23717109",
+        "Email": "irf@irf.net",
+        "Scheme": null,
+        "Website": "http://irf.net/irf/scholarship.htm",
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Jamiat-Ulama-e-Hind",
+        "Address": "1, Bahadur Shah Zafar Marg, New Delhi - 110002",
+        "Tel": "011-23315613, 23310668",
+        "Email": "info@jamiatulamaihind.com",
+        "Scheme": "Offers scholarships to meritorious and needy Muslim students for higher education.",
+        "Website": "www.jamiatulamaihind.com",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Karnataka State Minorities Commission",
+        "Address": "No. 10/4, 1st Floor, (Near Kandaya Bhavan), Millers Tank Bed Area, Bangalore-560052",
+        "Tel": "080-22288528, 22288531",
+        "Email": "minoritiescommission@gmail.com",
+        "Scheme": "Offers scholarships for various professional courses like Engineering, Medicine, Dental, MBA, MCA etc. Only for residents of Karnataka.",
+        "Website": "http://www.minorityaffairs.kar.nic.in/ksmc.htm",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Maulana Azad Education Foundation",
+        "Address": "Maulana Azad Campus, Chelmsford Road, New Delhi - 110055",
+        "Tel": "011-23583788, 23583789",
+        "Email": "maef@nic.in",
+        "Scheme": "Scholarship schemes for meritorious students, usually announced around July-August every year.",
+        "Website": "www.maef.nic.in",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "MESCO",
+        "Address": "601, Gold Finch, Raheja Vihar, Chandivali, Andheri (E), Mumbai - 400072",
+        "Tel": "022-28475770 / 28475780",
+        "Email": "info@mesco.org",
+        "Scheme": "Provides financial assistance by way of interest free loans to deserving Muslim students for higher professional and technical education such as Medicine, Engineering, Architecture, Computer Science, Business Management, etc.",
+        "Website": "www.mesco.org",
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "M.P. Backward and Minorities Welfare Department",
+        "Address": "Directorate of Backward Classes and Minorities Welfare, 1st Floor, Block-C, Vindhyachal Bhavan, Bhopal (M.P.) 462 004",
+        "Tel": "0755-2540330, 2540331",
+        "Email": "dir_minority@mp.nic.in",
+        "Scheme": null,
+        "Website": "http://www.minoritywelfare.mp.nic.in",
+        "State": "Madhya Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Association for the Advancement of Science, The",
+        "Address": "M.A.A.S. House, Sir Syed Nagar, Aligarh - 202002",
+        "Tel": "0571-2700935",
+        "Email": "maas_aligarh@sify.com",
+        "Scheme": null,
+        "Website": null,
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Educational Trust",
+        "Address": "# 13 & 14, II Floor, Blue Towers, Narasinga Rao Road, Bangalore - 560001",
+        "Tel": "080-22219669 / 22247178",
+        "Email": "metblr@bgl.vsnl.net.in",
+        "Scheme": "Provides financial assistance to deserving Muslim students from Karnataka, Andhra Pradesh, Tamil Nadu and Kerala for pursuing professional courses like Engineering, Medicine, Dental, MBA, MCA etc.",
+        "Website": "www.muslimeducationaltrust.com",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim Hands",
+        "Address": "Muslim Hands India, # 8/1, 1st Floor, Nandidurga Road, Benson Town, Bangalore – 560046",
+        "Tel": "080-41477272 / 41477373",
+        "Email": "info@muslimhandsindia.org",
+        "Scheme": "Applications for support from overseas students are not usually accepted. Written applications should be addressed to Mr. Muzaffar Hussain, Executive Director.",
+        "Website": "www.muslimhandsindia.org",
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim India Education and Cultural Trust",
+        "Address": "B-19, Nizamuddin West, New Delhi - 110013",
+        "Tel": "011-24354640, 24350786",
+        "Email": "muslimindia@gmail.com",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Muslim World League Secretariat General Education Affair",
+        "Address": "R-25, Abul Fazal Enclave-1, Jamia Nagar, New Delhi - 110025",
+        "Tel": "011-26940878, 26947080",
+        "Email": "mwlnd@yahoo.com",
+        "Scheme": "Offers scholarships to meritorious Muslim students for higher education in different fields.",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "National Minorities Development & Finance Corporation",
+        "Address": "NMDFC, Core-I, 1st Floor, NBCC Complex, Lodhi Road, New Delhi - 110003",
+        "Tel": "011-24369067, 24369068",
+        "Email": "nmdc@nic.in",
+        "Scheme": null,
+        "Website": "www.nmdcfc.nic.in",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Nakadar Foundation",
+        "Address": "201, Navjivan Commercial Premises CHS LTD., Lamington Road, Mumbai Central, Mumbai - 400008",
+        "Tel": "022-23002783 / 23002784",
+        "Email": "info@nakadarfoundation.org",
+        "Scheme": "Provides financial assistance to deserving students (without any discrimination of caste, creed or religion) to pursue higher education in the fields of Medicine, Engineering, Information Technology, Business Management, etc.",
+        "Website": "www.nakadarfoundation.org",
+        "State": "Maharashtra",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "All India Talent Identification And Promotion Trust",
+        "Address": "#7, SRK Garden, Jayanagar (E), Bangalore-41",
+        "Tel": "080-56969672, 6646861",
+        "Email": "admin@aitipt.org; aitipt@yahoo.co.in",
+        "Scheme": null,
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "AMM Arunachalam-Lakshmi Achi Scholarship",
+        "Address": "AMM Foundation, Parry House, Third Floor, 43 Moore Street, Chennai 600001.",
+        "Scheme": null,
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Asma Foundation (Regd)",
+        "Address": "Hospital Road Distt. Madhubani, Bihar 847211",
+        "Scheme": "Invites applications for financial aid from the students who had excelled in public exams, but could not afford to study further. During the year 2004-05, BREAD will offer scholarships in science and technology : Engineering, Computer Science, Medicine, Veterinary Science, Agriculture, Pharmacy, Polytechnics, Mathematics and Sciences.",
+        "Website": null,
+        "State": "Bihar",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "BREAD and North South Foundation",
+        "Address": "Mr Ch Hanumantha Rao, 204 Megha Apts, 2-1-253 Nallakunta, Hyderabad , AP 500 044; Mr. S.Ramanathan, #17, North St, Kalai Nagar Madurai – 625014",
+        "Tel": "40-2763-1963 (Hyderabad); 0452-2640678 (Madurai)",
+        "Email": "chrao04@sify.com (Hyderabad); ramrajam2002@yahoo.com (Madurai)",
+        "Scheme": "Scholarships based on exam grades and family situation. Annual family income less than Rs 38000 in urban areas and Rs 26000 in rural areas. Scholarship covers tuition fees and ranges from Rs 5000 to Rs 10000 per year.",
+        "Website": "www.breadsociety.org, www.northsouth.org",
+        "State": "Andhra Pradesh, Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Bharat Seva Trust",
+        "Address": "12 A, Connaught Place New Delhi-110001",
+        "Tel": "23323917",
+        "Scheme": null,
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "The Children Foundation",
+        "Address": "Post Box No -5007, Chennai – 600090 Tamil Nadu",
+        "Email": "info@childrenfoundation.net",
+        "Scheme": "Provide scholarship for academically excellent student who lack the financial freedom in choosing and building their career",
+        "Website": "http://www.childrenfoundation.net/apply.html",
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "R D Sethna Scholarship Fund",
+        "Address": "29, H Somani Marg, Fort Mumbai – 400001",
+        "Scheme": null,
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Prerana(supported by Infosys foundation)",
+        "Address": "580, shubhakar, 44th cross,1st  main Road,Jayanagar 7th block Bangalore",
+        "Mob": "9900906338(saraswat i); 9986630301 (Mr.Shivkumar); 9964534667 (Ms.Bindu)",
+        "Scheme": "Bright students from poor financial background who scored more than 80% in 10th standard.",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Mr. M R Sherwani",
+        "Address": "12-A Connaught place New Deihi 110001",
+        "Scheme": "Sherwani Award to outstanding students who have passed out High School/ Intermediate Examination of any board. (Only First Divisioners)",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "UNIFIED COUNCIL",
+        "Address": "# 16-11-17/B/2/2, Saleem Nagar, Malakpet, Hyderabad – 500 036.",
+        "Tel": "040-24545862,24557708,55106095",
+        "Fax": "24542215",
+        "Scheme": "NATIONAL LEVEL SCIENCE TALENT SEARCH EXAMINATION – 2005 (For students of Classes III to XII)",
+        "Website": null,
+        "State": "Telangana",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Anjuman Farz-e-Momir",
+        "Address": "540, Sufi Tola, Masjid Kale Khan, Old City, Bareilly-43005",
+        "Scheme": "Farz-e-Momin Award to all students of U.P. securing lst Division in High School and Intermediate Examination.",
+        "Website": null,
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Organization",
+        "Organization": "Aqsa Educational & Charitable Trust",
+        "Address": "Vinobhangar, Tumkur – 572101, Karnataka",
+        "Tel": "0816-2211457, 2275786",
+        "Email": "fida@vsnl.com",
+        "Scheme": "Conducts Islamic open course Examination and distributes awards to toppers",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Alif Academy",
+        "Address": "53/ 3, Kantharia Mahal, LBS Marg, Kamani, Kurla (West), Mumbai  400070",
+        "Mob": "989 210 8249",
+        "Email": "husainali_dharamsi@yahoo.co.in",
+        "Scheme": "Career guidance and counseling at the beginning of academic year. No coaching courses or regular classes.",
+        "Website": null,
+        "State": "Maharashtra",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Coaching and Guidance Centre, AMU",
+        "Address": "Aligarh Muslim University, Aligarh",
+        "Scheme": "Coaching for Civil Services, PCS (U.P., M.P., Rajasthan), Indian Engineering Services, Indian Economic/Statistical Services, Indian Forest Services, Judicial Services Examination, language improvement, SSC, Combined Graduate Level Examination, Asstt. Commandants Central Police Organisation, Probationary Officer, Bank, L.I.C, G.I.C, Excise & Income Tax, Railways, U.P.S.C.(SCRAS), Asstt. Grade- Asstt Grade Administrative Officers, NDA, Sub Inspector, Prelim Exam, C.D.S, S.I.S., Combined Entrance Test ( M.B.A., M.l.B.M, M.F.C., M.T.A., M.S.W.), B-Tech, Pre- Medical Test. Stipends available for selected students. Selection on merit plus personality test.",
+        "Website": null,
+        "State": "Uttar Pradesh",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Crescent career Guidance and Coaching Centre",
+        "Address": "Seethakathi, Vandalur, Chennai – 600048",
+        "Tel": "044-22751155",
+        "Scheme": "Free coaching and lodging for weaker sections, Particularly Muslims for IAS exam. Separate hostel for boys and girls.",
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Crescent Educational Foundation",
+        "Address": "B.61 C K Road, Chanpatana, Bangalore Dist.Karnataka",
+        "Tel": "++91-80-7251143 / 54443; ++91-9844143530",
+        "Email": "crescent@asia.com",
+        "Scheme": "Coaching for Xth grade, guidance for professional courses. (Only for students from Muslim community of Chanpatana city)",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Education and Career Guidance Center (ECGC)",
+        "Address": "Panoor, Pallana P.O. Alappuzha District Kerala State PIN 690515",
+        "Tel": "0477-229-7614",
+        "Email": null,
+        "Scheme": "Organize career guidance programs for students starting from high school level. A small library. CIGI (Career Information Guidance India) will help ECGC in this program.",
+        "Website": null,
+        "State": "Kerala",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Hamdard Study Circle",
+        "Address": "Talimabad, Sangam Vihar, New Delhi 110062",
+        "Scheme": "Coaching for Minorities. Selection on the basis of examination and interview",
+        "Website": null,
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "India Islamic Cultural Centre",
+        "Address": "87 – 88, Lodhi Estate New Delhi – 110 003",
+        "Tel": "+91 11 43535353 – 57",
+        "Fax": "+91 11 43535358",
+        "Email": "info@iiccentre.org",
+        "Scheme": "Coaching programme for financially weak deserving candidates of minority community.",
+        "Website": "http://www.iiccentre.org/civil_service_choaching.htm",
+        "State": "Delhi",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Larkspur House of Learning",
+        "Address": "3/4, Berlie Street Cross, Langford town, Bangalore",
+        "Tel": "080-22727183, 9880711736",
+        "Scheme": "Personalised Coaching Centre",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "No"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Momin’ Students Welfare Trust",
+        "Address": "# 157 / A, 4th Cross, Behind Naseem PolyClinic, Ilyasnagar, J.P. Nagar Post, Bangalore – 78",
+        "Mob": "9845567687",
+        "Email": "msw_trust@yahoo.com",
+        "Scheme": "Conducts free programs offering essential career guidance & in depth information on career for students. Workshops on career opportunities after SSLC / PUC & Counselling individual students. Guidance for students appearing for CET (Karnataka).",
+        "Website": null,
+        "State": "Karnataka",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Noor Jahan Foundation, Hyderabad",
+        "Address": null,
+        "Scheme": "Coaching to minority students for the I.A.S., I.P.S., Group-1, Banks and Railways Examinations with free boarding and lodging to the poorest deserving students.",
+        "Website": null,
+        "State": "Telangana",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Periyar I.A.S. & I.P.S. Coaching Centre",
+        "Address": "Periyar Thidal Vepery, Chennai 600007",
+        "Scheme": "Free coaching for minorities and socially and educationally backward classes",
+        "Website": null,
+        "State": "Tamil Nadu",
+        "MuslimSpecific": "Yes"
+      },
+      {
+        "OrganizationType": "Coaching Center",
+        "Organization": "Upward Bound Program Coaching Centres",
+        "Address": "Centres in Patna (Bihar), Muzaffarpur (Bihar), Bharuch (Gajarat), Okhla (Delhi), Aligarh (U.P.)",
+        "Tel": null,
+        "Email": "imefna@yahoo.com",
+        "Scheme": null,
+        "Website": "www.imef-ub.org",
+        "State": "Bihar, Gujarat, Delhi, Uttar Pradesh",
+        "MuslimSpecific": "No"
+      }
+  ]
