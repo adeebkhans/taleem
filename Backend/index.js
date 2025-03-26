@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const instituteRoutes = require("./routes/instituteRoutes");
 const scholarshipRoutes = require("./routes/scholarshipRoutes");
+const opportunityRoutes = require("./routes/opportunityRoutes");
 const AuthRoutes = require("./routes/AuthRoutes");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose"); // Import mongoose
@@ -37,6 +38,7 @@ app.use(express.json());
 app.use("/api/institutes", instituteRoutes);
 app.use("/api/scholarships", scholarshipRoutes);
 app.use("/api/auth", AuthRoutes);
+app.use("/api/opportunity", opportunityRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
