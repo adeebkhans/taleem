@@ -1,12 +1,13 @@
-import EducationInIslam from "./Components/EducationInIslam";
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Opportunities from './Components/Opportunities';
-import Story from './Components/story';
-import AIChatbot from './Components/AIChatbot';
-import Institutes from "./Components/Institutes";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Opportunities from "./Components/Opportunities";
 import Scholarship from "./Components/scholarship";
+import EducationInIslam from "./Components/EducationInIslam";
+import Story from "./Components/story";
+import AIChatbot from "./Components/AIChatbot";
+import Institutes from "./Components/Institutes";
+import { AuthPage } from "./Components/AuthPage"; // Import Auth Page
 
 function App() {
   return (
@@ -20,9 +21,7 @@ function App() {
         <Route path="/lesson/:id" element={<Story />} />
         <Route path="/ai-chatbot" element={<AIChatbot />} />
         <Route path="/institutes" element={<Institutes />} />
-        {/* <Route path="/learning" element={<LearningHub />} />
-        <Route path="/community" element={<Community />} />
-        <Route path="/profile" element={<Profile />} /> */}
+        <Route path="/auth" element={<AuthPage />} /> 
       </Routes>
     </>
   );
