@@ -5,7 +5,7 @@ import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 import { loginSuccess, logout } from "../redux/authSlice"; // ✅ Import Redux actions
 
-const API_URL = "http://localhost:3000/api/auth";
+// const API_URL = "http://localhost:3000/api/auth";
 
 export const AuthPage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -27,7 +27,7 @@ export const AuthPage = () => {
 
     try {
       const response = await axios.post(
-        `${API_URL}/${isLogin ? "login" : "signup"}`,
+        `${import.meta.env.VITE_API_BASE_URL}/auth/${isLogin ? "login" : "signup"}`,
         formData,
         { withCredentials: true }
       );
@@ -44,7 +44,7 @@ export const AuthPage = () => {
       const { credential } = credentialResponse;
       const decoded = jwtDecode(credential);
 
-      await axios.post(`${API_URL}/google-login`, { tokenId: credential }, { withCredentials: true });
+      await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/google-login`, { tokenId: credential }, { withCredentials: true });
 
       dispatch(loginSuccess({ user: decoded, token: credential })); // ✅ Store Google user in Redux
     } catch (error) {
@@ -54,7 +54,7 @@ export const AuthPage = () => {
 
   // Handle Logout
   const handleLogout = async () => {
-    await axios.post(`${API_URL}/logout`, {}, { withCredentials: true });
+    await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/logout`, {}, { withCredentials: true });
     dispatch(logout()); // ✅ Clear user from Redux
   };
 
