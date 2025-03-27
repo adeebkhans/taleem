@@ -1,44 +1,53 @@
 const express = require("express");
 const cors = require("cors");
+const cookieParser = require("cookie-parser"); 
+const dotenv = require("dotenv");
+dotenv.config(); // Load environment variables
+const mongoose = require("mongoose");
+
 const instituteRoutes = require("./routes/instituteRoutes");
 const scholarshipRoutes = require("./routes/scholarshipRoutes");
 const opportunityRoutes = require("./routes/opportunityRoutes");
 const AuthRoutes = require("./routes/AuthRoutes");
-const dotenv = require("dotenv");
-const mongoose = require("mongoose"); // Import mongoose
+const eventRoutes = require("./routes/eventRoutes");
+const postRoutes = require("./routes/postRoutes");
+const chatRoutes = require("./routes/chatRoutes");
 
-dotenv.config(); // Load environment variables from .env file
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Use environment variable for port or default to 3000
+const PORT = process.env.PORT || 3000;
 
+// Connect to MongoDB
 async function mongodb() {
   try {
     await mongoose.connect(process.env.MONGODB_URI);
-    console.log("mongodb connected");
+    console.log("MongoDB connected");
   } catch (error) {
-    console.error("mongodb connection failed:", error); 
+    console.error("MongoDB connection failed:", error);
   }
 }
-
 mongodb();
 
+// Enable CORS and allow cookies
 app.use(
-    cors({
-      origin: "http://localhost:5173", // Allow frontend domain explicitly
-      credentials: true, // Allow cookies and authorization headers
-    })
-  );
-  
+  cors({
+    origin: "http://localhost:5173", // Adjust based on your frontend URL
+    credentials: true, // Allow sending cookies
+  })
+);
 
-// Middleware for parsing JSON
+// Middleware
+app.use(cookieParser()); 
 app.use(express.json());
 
-// Use the routes
+// Routes
 app.use("/api/institutes", instituteRoutes);
 app.use("/api/scholarships", scholarshipRoutes);
 app.use("/api/auth", AuthRoutes);
 app.use("/api/opportunity", opportunityRoutes);
+app.use("/api/community/posts", postRoutes);
+app.use("/api/community/events", eventRoutes);
+app.use("/api/chat/", chatRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
