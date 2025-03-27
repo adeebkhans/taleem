@@ -20,6 +20,7 @@ const Community = () => {
   const [showCreateEvent, setShowCreateEvent] = useState(false);
   const [comments, setComments] = useState([]);
   const [loadingComments, setLoadingComments] = useState(false);
+  const [isAddingNewEvent, setIsAddingNewEvent] = useState(false);
   const navigate = useNavigate();
 
   // Fetch Posts & Events
@@ -160,6 +161,78 @@ const Community = () => {
     setComments([]);
   };
 
+  const handleAddPostClick = () => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+    } else {
+      setShowCreatePost(!showCreatePost);
+    }
+  };
+
+  const handleAddEventClick = () => {
+    const token = localStorage.getItem('token'); // Check if user is logged in
+    if (!token) {
+      navigate('/auth'); // Redirect to login if not logged in
+    } else {
+      setIsAddingNewEvent(!isAddingNewEvent); // Toggle the form if logged in
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+      return;
+    }
+
+    try {
+      await axios.post(
+        `${API_BASE_URL}/posts`,
+        { ...newPost },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      setShowCreatePost(false);
+      setNewPost({ title: "", description: "", images: [] });
+      fetchPosts();
+    } catch (error) {
+      console.error('Error adding post:', error);
+    }
+  };
+
+  const handleEventSubmit = async (e) => {
+    e.preventDefault();
+    const token = localStorage.getItem('token'); // Retrieve token from localStorage
+    if (!token) {
+      navigate('/login'); // Redirect to login if not logged in
+      return;
+    }
+
+    try {
+      await axios.post(
+        `${import.meta.env.VITE_API_BASE_URL}/community/events`,
+        { ...newEvent },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`, // Send token in headers
+          },
+        }
+      );
+
+      setIsAddingNewEvent(false);
+      setNewEvent({ title: '', description: '', date: '', location: '' }); // Reset new event fields
+      fetchEvents(); // Refresh events
+    } catch (error) {
+      console.error('Error adding event:', error);
+    }
+  };
+
   if (selectedPost) {
     return (
       <div className="container mx-auto px-4 py-6">
@@ -294,16 +367,16 @@ const Community = () => {
           </h1>
           <div className="flex gap-4">
             <button
-              onClick={() => setShowCreatePost(!showCreatePost)}
+              onClick={handleAddPostClick}
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:shadow-md"
             >
               {showCreatePost ? 'Cancel' : '+ New Post'}
             </button>
             <button
-              onClick={() => setShowCreateEvent(!showCreateEvent)}
+              onClick={handleAddEventClick}
               className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-all duration-300 hover:shadow-md"
             >
-              {showCreateEvent ? 'Cancel' : '+ New Event'}
+              {isAddingNewEvent ? 'Cancel' : '+ New Event'}
             </button>
           </div>
         </div>
@@ -312,19 +385,21 @@ const Community = () => {
         {showCreatePost && (
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
             <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Create New Post</h2>
-            <div className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
               <input
                 type="text"
                 placeholder="Title"
                 value={newPost.title}
                 onChange={(e) => setNewPost({ ...newPost, title: e.target.value })}
                 className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
               />
               <textarea
                 placeholder="Description"
                 value={newPost.description}
                 onChange={(e) => setNewPost({ ...newPost, description: e.target.value })}
                 className="w-full p-2 border rounded-lg h-32 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
               />
               <input
                 type="text"
@@ -334,61 +409,56 @@ const Community = () => {
                 className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
               />
               <button 
-                onClick={createPost}
+                type="submit"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:shadow-md"
               >
                 Post
               </button>
-            </div>
+            </form>
           </div>
         )}
 
-        {showCreateEvent && (
+        {isAddingNewEvent && (
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
-            <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Create New Event</h2>
-            <div className="space-y-4">
+            <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Add New Event</h2>
+            <form onSubmit={handleEventSubmit} className="space-y-4">
               <input
                 type="text"
-                placeholder="Title"
+                placeholder="Event Title"
                 value={newEvent.title}
                 onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })}
                 className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
               />
               <textarea
-                placeholder="Description"
+                placeholder="Event Description"
                 value={newEvent.description}
                 onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}
                 className="w-full p-2 border rounded-lg h-32 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
               />
-              <div className="grid grid-cols-2 gap-4">
-                <input
-                  type="date"
-                  value={newEvent.date}
-                  onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })}
-                  className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                />
-                <input
-                  type="text"
-                  placeholder="Location"
-                  value={newEvent.location}
-                  onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })}
-                  className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                />
-              </div>
+              <input
+                type="date"
+                value={newEvent.date}
+                onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })}
+                className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
+              />
               <input
                 type="text"
-                placeholder="Image URL"
-                value={newEvent.images}
-                onChange={(e) => setNewEvent({ ...newEvent, images: [e.target.value] })}
+                placeholder="Location"
+                value={newEvent.location}
+                onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })}
                 className="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                required
               />
-              <button 
-                onClick={createEvent}
-                className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:shadow-md"
+              <button
+                type="submit"
+                className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition-colors duration-300"
               >
-                Create Event
+                Submit Event
               </button>
-            </div>
+            </form>
           </div>
         )}
 

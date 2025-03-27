@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Opportunities = () => {
   const [opportunities, setOpportunities] = useState([]);
@@ -17,6 +18,7 @@ const Opportunities = () => {
     postedAt: new Date().toISOString()
   });
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchOpportunities();
@@ -33,25 +35,38 @@ const Opportunities = () => {
     }
   };
 
+  const handleAddOpportunityClick = () => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+    } else {
+      setIsAddingNew(!isAddingNew);
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+      return;
+    }
+
     try {
-      const token = localStorage.getItem('token'); // Retrieve token from localStorage
-  
       await axios.post(
         `${import.meta.env.VITE_API_BASE_URL}/opportunity`,
         {
           ...newOpportunity,
           postedAt: new Date().toISOString(),
-          postedBy: "user_id_here" // Replace with actual user ID if available
+          postedBy: "user_id_here"
         },
         {
           headers: {
-            Authorization: `Bearer ${token}`, // Send token in headers
+            Authorization: `Bearer ${token}`,
           },
         }
       );
-  
+
       setIsAddingNew(false);
       setNewOpportunity({
         title: '',
@@ -64,9 +79,9 @@ const Opportunities = () => {
         referralEmail: '',
         referralFormLink: '',
         postedAt: new Date().toISOString(),
-        postedBy: '' // Reset postedBy field
+        postedBy: ''
       });
-  
+
       fetchOpportunities();
     } catch (error) {
       console.error('Error adding opportunity:', error);
@@ -83,7 +98,7 @@ const Opportunities = () => {
             Opportunities
           </h1>
           <button
-            onClick={() => setIsAddingNew(!isAddingNew)}
+            onClick={handleAddOpportunityClick}
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-300"
           >
             {isAddingNew ? 'Cancel' : '+ Add Opportunity'}

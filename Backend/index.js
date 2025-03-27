@@ -31,10 +31,11 @@ mongodb();
 // Enable CORS and allow cookies
 app.use(
   cors({
-    origin: "*", 
-    credentials: true, // Allow sending cookies
+    origin: ["http://localhost:5173", "https://your-other-frontend.com"],
+    credentials: true,
   })
 );
+
 
 // Middleware
 app.use(cookieParser()); 
