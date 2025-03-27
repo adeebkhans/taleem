@@ -8,6 +8,9 @@ import Story from "./Components/story";
 import AIChatbot from "./Components/AIChatbot";
 import Institutes from "./Components/Institutes";
 import { AuthPage } from "./Components/AuthPage"; // Import Auth Page
+import Community from "./Components/Community";
+import PostView from "./Components/PostView";
+import EventView from "./Components/EventView";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/ai-chatbot" element={<AIChatbot />} />
         <Route path="/institutes" element={<Institutes />} />
         <Route path="/auth" element={<AuthPage />} /> 
+        <Route path="/community" element={<Community />} /> 
+        <Route path="/community/post/:id" element={<PostView />} />
+        <Route path="/community/event/:id" element={<EventView />} />
       </Routes>
     </>
   );
