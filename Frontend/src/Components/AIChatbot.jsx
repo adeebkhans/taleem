@@ -3,12 +3,14 @@ import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { useNavigate } from 'react-router-dom';
 
 const AIChatbot = () => {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const navigate = useNavigate();
 
   // Fetch previous conversation when component mounts
   useEffect(() => {
@@ -40,6 +42,12 @@ const AIChatbot = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
+  
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+      return;
+    }
   
     try {
       setIsLoading(true);
