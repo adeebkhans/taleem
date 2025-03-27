@@ -15,9 +15,9 @@ export const lessons = [
     title: "Contributions of Muslim Scholars to Education",
     content: `
       Muslim scholars played a major role in education. 
-      - **Ibn Sina** (Avicenna) - Father of modern medicine.
-      - **Al-Khwarizmi** - Founder of algebra.
-      - **Fatima Al-Fihri** - Established the first university (University of Al Quaraouiyine).
+      - Ibn Sina (Avicenna) - Father of modern medicine.
+      - Al-Khwarizmi - Founder of algebra.
+      - Fatima Al-Fihri - Established the first university (University of Al Quaraouiyine).
     `,
     quran: "Say, 'Are those who know equal to those who do not know?' (Quran 39:9)",
     hadith: "The best among you are those who learn the Quran and teach it. (Bukhari)",

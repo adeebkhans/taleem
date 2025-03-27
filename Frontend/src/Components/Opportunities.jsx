@@ -24,7 +24,7 @@ const Opportunities = () => {
 
   const fetchOpportunities = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/opportunities');
+      const response = await axios.get('http://localhost:3000/api/opportunity');
       setOpportunities(response.data);
       setLoading(false);
     } catch (error) {
@@ -36,10 +36,22 @@ const Opportunities = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/api/opportunities', {
-        ...newOpportunity,
-        postedAt: new Date().toISOString()
-      });
+      const token = localStorage.getItem('token'); // Retrieve token from localStorage
+  
+      await axios.post(
+        'http://localhost:3000/api/opportunity',
+        {
+          ...newOpportunity,
+          postedAt: new Date().toISOString(),
+          postedBy: "user_id_here" // Replace with actual user ID if available
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`, // Send token in headers
+          },
+        }
+      );
+  
       setIsAddingNew(false);
       setNewOpportunity({
         title: '',
@@ -51,13 +63,16 @@ const Opportunities = () => {
         hasReferral: false,
         referralEmail: '',
         referralFormLink: '',
-        postedAt: new Date().toISOString()
+        postedAt: new Date().toISOString(),
+        postedBy: '' // Reset postedBy field
       });
+  
       fetchOpportunities();
     } catch (error) {
       console.error('Error adding opportunity:', error);
     }
   };
+  
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20">
@@ -214,8 +229,11 @@ const Opportunities = () => {
                       {opportunity.type}
                     </span>
                   </div>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
+                    Organisation : {opportunity.organization} 
+                  </p>
                   <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                    {opportunity.organization}
+                  Posted By : {opportunity.postedBy.name}
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
                     {opportunity.description}
