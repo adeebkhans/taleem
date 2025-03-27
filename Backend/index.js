@@ -31,7 +31,7 @@ mongodb();
 // Enable CORS and allow cookies
 app.use(
   cors({
-    origin: "http://localhost:5173", // Adjust based on your frontend URL
+    origin: "*", 
     credentials: true, // Allow sending cookies
   })
 );

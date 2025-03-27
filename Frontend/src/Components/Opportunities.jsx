@@ -24,7 +24,7 @@ const Opportunities = () => {
 
   const fetchOpportunities = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/opportunity');
+      const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/opportunity`);
       setOpportunities(response.data);
       setLoading(false);
     } catch (error) {
@@ -39,7 +39,7 @@ const Opportunities = () => {
       const token = localStorage.getItem('token'); // Retrieve token from localStorage
   
       await axios.post(
-        'http://localhost:3000/api/opportunity',
+        `${import.meta.env.VITE_API_BASE_URL}/opportunity`,
         {
           ...newOpportunity,
           postedAt: new Date().toISOString(),
