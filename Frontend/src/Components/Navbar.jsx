@@ -46,13 +46,13 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center space-x-1">
+        <div className="hidden md:flex items-center space-x-3">
           <NavLink to="/" label="Home" />
           <NavLink to="/scholarships" label="Scholarships 🎓" />
           <NavLink to="/opportunities" label="Opportunities 🚀" />
           <NavLink to="/education-in-islam" label="Education in Islam 🕌" />
           <NavLink to="/institutes" label="Institutes 🏫" />
-          <NavLink to="/learning" label="Learning Hub 📚" />
+          {/* <NavLink to="/learning" label="Learning Hub 📚" /> */}
           <NavLink to="/ai-chatbot" label="AI Chatbot 🤖" />
           <NavLink to="/community" label="Community 👥" />
         </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
           <NavLink to="/opportunities" label="Opportunities 🚀" mobile />
           <NavLink to="/education-in-islam" label="Education in Islam 🕌" mobile />
           <NavLink to="/institutes" label="Institutes 🏫" mobile />
-          <NavLink to="/learning" label="Learning Hub 📚" mobile />
+          {/* <NavLink to="/learning" label="Learning Hub 📚" mobile /> */}
           <NavLink to="/ai-chatbot" label="AI Chatbot 🤖" mobile />
           <NavLink to="/community" label="Community 👥" mobile />
         </div>
