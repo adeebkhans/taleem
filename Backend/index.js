@@ -31,7 +31,7 @@ mongodb();
 // Enable CORS and allow cookies
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://taleemfrontend.vercel.app/"],
+    origin: ["http://localhost:5173", "https://taleemfrontend.vercel.app"],
     credentials: true,
   })
 );
