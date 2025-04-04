@@ -30,6 +30,8 @@ exports.signup = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "None",
+      domain: ".vercel.app", // Ensures cookie works across subdomains
+      path: "/",          // Makes the cookie available to all routes
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
