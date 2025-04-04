@@ -33,6 +33,8 @@ app.use(
   cors({
     origin: ["http://localhost:5173", "https://taleemfrontend.vercel.app"],
     credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
 
@@ -40,6 +42,7 @@ app.use(
 // Middleware
 app.use(cookieParser()); 
 app.use(express.json());
+app.set('trust proxy', 1);
 
 // Routes
 app.use("/api/institutes", instituteRoutes);
