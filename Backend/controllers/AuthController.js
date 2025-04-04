@@ -30,7 +30,7 @@ exports.signup = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "None",
-      domain: ".vercel.app", // Ensures cookie works across subdomains
+      domain: "taleem-eight.vercel.app", // Ensures cookie works across subdomains
       path: "/",          // Makes the cookie available to all routes
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
@@ -60,8 +60,8 @@ exports.login = async (req, res) => {
     // Set token in HTTP-only cookie
     res.cookie("token", token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "Strict",
+      secure: true,
+      sameSite: "None",
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
@@ -95,8 +95,8 @@ exports.googleLogin = async (req, res) => {
     // Set token in HTTP-only cookie
     res.cookie("token", token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "Strict",
+      secure: true,
+      sameSite: "None",
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     });
 
