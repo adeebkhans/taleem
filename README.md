@@ -21,13 +21,9 @@
 🔹 **Promotes Islamic values** in learning and career growth.  
 🔹 **Encourages inclusivity & empowerment** through technology.  
 
----
-
 ## 🚀 Installation Guide
 
 Follow the steps below to set up the project locally 
-
----
 
 ### 📁 Clone the Repository
 
