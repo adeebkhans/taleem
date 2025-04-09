@@ -13,7 +13,7 @@
 ### 💻 **Tech Stack**  
 - **Frontend:** React, Tailwind CSS, Reduxjs, axios, framer-motion, react-markdown etc
 - **Backend:** Node.js, Express, Mongoose and MongoDB, axios, google-auth-library
-- **Authentication:** JWT-based user sessions  
+- **Authentication:** JWT-based user sessions, Google OAuth 2.0  
 - **AI:**  Gemini AI API 
 
 ### 🚀 **Why Taleem?**  
