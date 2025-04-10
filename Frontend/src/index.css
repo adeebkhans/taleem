@@ -51,3 +51,20 @@
     scrollbar-color: #4b5563 #1f2937;
   }
 }
+
+@font-face {
+  font-family: 'AmazingRamadhan';
+  src: url('../public/fonts/AmazingRamadhan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the font to the navbar logo */
+.logo2 {
+  font-family: 'AmazingRamadhan', sans-serif;
+  font-size: 32px; /* Adjust size */
+  text-align: center;
+  background: linear-gradient(to right, #4A90E2, #A600FF); /* Gradient effect */
+  -webkit-background-clip: text;
+  color: transparent;
+}

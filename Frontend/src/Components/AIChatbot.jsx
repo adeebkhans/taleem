@@ -1,62 +1,73 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { useNavigate } from 'react-router-dom';
 
 const AIChatbot = () => {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const messagesEndRef = useRef(null);
+  const navigate = useNavigate();
+
+  // Fetch previous conversation when component mounts
+  useEffect(() => {
+    const fetchConversation = async () => {
+      try {
+        const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/chat/history`, {
+          withCredentials: true, // Ensure cookies are sent
+        });
+        setMessages(response.data.messages || []);
+      } catch (error) {
+        console.error("Error fetching conversation:", error);
+      }
+    };
+
+    fetchConversation();
+  }, []);
+
+  // Scroll to the bottom of the chat when messages change
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
+  const scrollToBottom = () => {
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-
+  
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+      return;
+    }
+  
     try {
       setIsLoading(true);
-      const userMessage = { role: 'user', content: input };
+      const userMessage = { role: "user", content: input };
       setMessages((prev) => [...prev, userMessage]);
-
+  
+      // Call backend
       const response = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${import.meta.env.VITE_GEMINI_API_KEY}`,
-        {
-          contents: [
-            {
-              parts: [
-                {
-                  text: `Answer in a respectful and Islamic manner, starting with 'Salam' and avoiding any mischievous or inappropriate content. Context: ${input}`,
-                },
-              ],
-            },
-          ],
-          generationConfig: {
-            temperature: 0.7,
-            topK: 40,
-            topP: 0.95,
-            maxOutputTokens: 1024,
-          },
-        },
-        {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        }
+        `${import.meta.env.VITE_API_BASE_URL}/chat`,
+        { message: input },
+        { withCredentials: true }
       );
-
-      if (!response.data?.candidates?.[0]?.content?.parts?.[0]?.text) {
-        throw new Error('Invalid response structure from API');
-      }
-
-      const aiMessage = response.data.candidates[0].content.parts[0].text;
-      setMessages((prev) => [...prev, { role: 'assistant', content: aiMessage }]);
-      setInput('');
+  
+      setMessages((prev) => [...prev, { role: "assistant", content: response.data.response }]);
+      setInput("");
     } catch (error) {
-      console.error('Error:', error);
-      const errorMessage = error.response?.data?.error?.message || error.message || 'An unexpected error occurred';
+      console.error("Error:", error);
       setMessages((prev) => [
         ...prev,
-        { role: 'assistant', content: `I apologize, but I encountered an error: ${errorMessage}. Please try again.` },
+        { role: "assistant", content: "Sorry, I encountered an error. Please try again." },
       ]);
     } finally {
       setIsLoading(false);
@@ -119,8 +130,8 @@ const AIChatbot = () => {
                 ) : (
                   <ReactMarkdown
                     components={{
-                      code({node, inline, className, children, ...props}) {
-                        const match = /language-(\w+)/.exec(className || '')
+                      code({ node, inline, className, children, ...props }) {
+                        const match = /language-(\w+)/.exec(className || '');
                         return !inline && match ? (
                           <SyntaxHighlighter
                             style={dracula}
@@ -134,7 +145,7 @@ const AIChatbot = () => {
                           <code className={className} {...props}>
                             {children}
                           </code>
-                        )
+                        );
                       },
                       p: ({ children }) => <p className="mb-2">{children}</p>,
                       h1: ({ children }) => <h1 className="text-xl font-bold mb-2">{children}</h1>,
@@ -162,6 +173,8 @@ const AIChatbot = () => {
               </div>
             </div>
           )}
+          {/* This div will act as the scroll target */}
+          <div ref={messagesEndRef} />
         </div>
 
         <form onSubmit={handleSubmit} className="flex gap-2">

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Opportunities = () => {
   const [opportunities, setOpportunities] = useState([]);
@@ -17,6 +18,7 @@ const Opportunities = () => {
     postedAt: new Date().toISOString()
   });
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchOpportunities();
@@ -24,7 +26,7 @@ const Opportunities = () => {
 
   const fetchOpportunities = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/api/opportunities');
+      const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/opportunity`);
       setOpportunities(response.data);
       setLoading(false);
     } catch (error) {
@@ -33,13 +35,38 @@ const Opportunities = () => {
     }
   };
 
+  const handleAddOpportunityClick = () => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+    } else {
+      setIsAddingNew(!isAddingNew);
+    }
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/auth');
+      return;
+    }
+
     try {
-      await axios.post('http://localhost:3000/api/opportunities', {
-        ...newOpportunity,
-        postedAt: new Date().toISOString()
-      });
+      await axios.post(
+        `${import.meta.env.VITE_API_BASE_URL}/opportunity`,
+        {
+          ...newOpportunity,
+          postedAt: new Date().toISOString(),
+          postedBy: "user_id_here"
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
       setIsAddingNew(false);
       setNewOpportunity({
         title: '',
@@ -51,13 +78,16 @@ const Opportunities = () => {
         hasReferral: false,
         referralEmail: '',
         referralFormLink: '',
-        postedAt: new Date().toISOString()
+        postedAt: new Date().toISOString(),
+        postedBy: ''
       });
+
       fetchOpportunities();
     } catch (error) {
       console.error('Error adding opportunity:', error);
     }
   };
+  
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20">
@@ -68,7 +98,7 @@ const Opportunities = () => {
             Opportunities
           </h1>
           <button
-            onClick={() => setIsAddingNew(!isAddingNew)}
+            onClick={handleAddOpportunityClick}
             className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-300"
           >
             {isAddingNew ? 'Cancel' : '+ Add Opportunity'}
@@ -214,8 +244,11 @@ const Opportunities = () => {
                       {opportunity.type}
                     </span>
                   </div>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
+                    Organisation : {opportunity.organization} 
+                  </p>
                   <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                    {opportunity.organization}
+                  Posted By : {opportunity.postedBy.name}
                   </p>
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
                     {opportunity.description}
