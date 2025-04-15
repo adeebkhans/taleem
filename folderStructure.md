@@ -1,0 +1,86 @@
+# Project Structure
+
+* 📁 `Backend/`
+    * 📁 `controllers/`
+        * 📜 `AuthController.js`
+        * 📜 `authMiddleware.js`
+        * 📜 `chatController.js`
+        * 📜 `communityController.js`
+        * 📜 `instituteController.js`
+        * 📜 `opportunityController.js`
+        * 📜 `scholarshipController.js`
+    * 📁 `data/`
+        * 📄 `categorized_institutions.json`
+        * 📄 `institutions.json`
+        * 📄 `scholarshipData.json`
+    * 📁 `routes/`
+        * 📜 `AuthRoutes.js`
+        * 📜 `chatRoutes.js`
+        * 📜 `eventRoutes.js`
+        * 📜 `instituteRoutes.js`
+        * 📜 `opportunityRoutes.js`
+        * 📜 `postRoutes.js`
+        * 📜 `scholarshipRoutes.js`
+    * 📁 `schema/`
+        * 📜 `chatMessages.js`
+        * 📜 `commentSchema.js`
+        * 📜 `eventSchema.js`
+        * 📜 `opportunitySchema.js`
+        * 📜 `postSchema.js`
+        * 📜 `userSchema.js`
+    * 🗑️ `.gitignore`
+    * 🐳 `Dockerfile`
+    * 📜 `index.js`
+    * 📦 `package-lock.json`
+    * 📦 `package.json`
+    * 🐍 `segregateInstitutes.py`
+    * ▲ `vercel.json`
+* 📁 `Frontend/`
+    * 📁 `public/`
+        * 📁 `fonts/`
+            * 🖼️ `Amazing_Ramadhan.png`
+            * 📄 `AmazingRamadhan.ttf`
+            * 📝 `Readme.txt`
+        * 📁 `Images/`
+            * 🖼️ `studying-5831644_1920.jpg`
+        * 🖼️ `favicon.png`
+        * 🖼️ `vite.svg`
+    * 📁 `src/`
+        * 📁 `assets/`
+            * 🖼️ `react.svg`
+        * 📁 `Components/`
+            * 📜 `AIChatbot.jsx`
+            * 📜 `AuthPage.jsx`
+            * 📜 `Community.jsx`
+            * 📜 `EducationInIslam.jsx`
+            * 📜 `EventView.jsx`
+            * 📜 `Home.jsx`
+            * 📜 `Institutes.jsx`
+            * 📜 `LessonPresentation.jsx`
+            * 📜 `Navbar.jsx`
+            * 📜 `Opportunities.jsx`
+            * 📜 `PostView.jsx`
+            * 📜 `scholarship.jsx`
+            * 📜 `story.jsx`
+        * 📁 `data/`
+            * 📜 `lessons.js`
+        * 📁 `redux/`
+            * 📜 `authSlice.js`
+            * 📜 `store.js`
+        * 🎨 `App.css`
+        * 📜 `App.jsx`
+        * 🎨 `index.css`
+        * 📜 `main.jsx`
+    * 🗑️ `.gitignore`
+    * 🐳 `Dockerfile`
+    * ⚙️ `eslint.config.js`
+    * 🌐 `index.html`
+    * 📦 `package-lock.json`
+    * 📦 `package.json`
+    * 📝 `README.md`
+    * ▲ `vercel.json`
+    * ⚙️ `vite.config.js`
+* 🐳 `docker-compose.yml`
+* 🐍 `extractInstitutes.py`
+* 🟥 `Minority Institutions list.pdf`
+* 📝 `README.md`
